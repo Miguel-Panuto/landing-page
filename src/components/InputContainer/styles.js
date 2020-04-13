@@ -11,16 +11,9 @@ export const Container = styled.div`
     }
     input {
         margin-top: 8px;
-        width: 344px;
+        width: 100%;
         border-radius: 5px;
         height: 55px;
         border: 1px solid #ccc;
-    }
-
-    @media screen and (max-width: 1024px){
-        input {
-            width: 100%;
-            max-width: 280px;
-        }
     }
 `;
