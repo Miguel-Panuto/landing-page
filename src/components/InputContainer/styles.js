@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     span {
         width: 100%;
         font-size: 17px;
