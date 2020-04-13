@@ -16,11 +16,10 @@ export default createGlobalStyle`
     h1 {
         color: #fff;
         padding: 15px 50px;
-        text-shadow: 3px 3px 3px #000f;
+        text-shadow: 3px 3px 3px #151525;
     }
 
     header {
-        min-width: 1200px;
         width: 100%;
         height: 60px;
         background-color: #212343;
@@ -36,6 +35,14 @@ export default createGlobalStyle`
     footer p {
         margin-top: 8px;
     }
+
+    @media screen and (max-width: 1024px) {
+        header {
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+    }
 `;
 
 export const Clear = styled.div`
@@ -43,7 +50,12 @@ export const Clear = styled.div`
 `;
 
 export const Center = styled.div`
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
-    padding: 0 2%;
+    max-width: 1280px;
+    @media screen and (max-width: 1024px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `;

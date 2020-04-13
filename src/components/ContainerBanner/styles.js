@@ -3,14 +3,13 @@ import banner from '../../assets/images/banner.png'
 
 export const Container = styled.div`
     width: 100%;
-    min-width: 1200px;
     height: 557px;
     background-image: url(${banner});
     background-size: cover;
     background-position: center;
-
-    > div{
+    @media screen and (max-width: 1024px){
         height: 100%;
+        padding-bottom: 50px;
     }
 `;
 
@@ -21,19 +20,33 @@ export const List = styled.div`
     width: 619px;
     height: 270px;
     background-color: rgba(33, 35, 67, 0.7);
+    
+    div:first-child {
+        height: 100%;
+    }
 
     ul {
         list-style-position: inside;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }      
 
     ul li {
         margin-top: 18px;
         color: #fff;
     }
+
+    @media screen and (max-width: 1024px){
+        float: none;
+        max-width: 500px;
+        width: 80vw;
+        margin-top: 10px;
+        height: 270px;
+    }
 `;
 
 export const Form = styled.div`
-    
     padding: 10px;
     width: 400px;
     height: calc(100% + 30px);
@@ -43,7 +56,7 @@ export const Form = styled.div`
     top: -15px;
     border: 8px solid #ccc;
 
-    > h2 {
+    h2 {
         font-size: 21px;
         font-weight: normal;
         color: #ccc;
@@ -81,5 +94,19 @@ export const Form = styled.div`
 
     input[type=submit]:hover {
         background-color: #227;
+    }
+
+    @media screen and (max-width: 1024px){
+       float: none;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       height: 100%;
+       width: 80%;
+       max-width: 400px;
+       margin-top: 30px;
+       padding: 10px;
+       top: 0; 
     }
 `;

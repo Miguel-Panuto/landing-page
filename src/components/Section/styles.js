@@ -14,4 +14,9 @@ export const Container = styled.div`
         text-align: center;
         display: flex;
     }
+    @media screen and (max-width: 600px){
+        .container-section {
+            flex-direction: column;
+        }
+    }
 `;
