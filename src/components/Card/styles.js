@@ -7,5 +7,6 @@ export const Container = styled.div`
     p {
         text-align: justify;
         padding: 10px 25px;
+        color: #fff;
     }
 `;

@@ -13,6 +13,10 @@ export default createGlobalStyle`
         -webkit-font-smoothing: antialiased !important;
     }
 
+    body {
+        background-color: #222;
+    }
+
     h1 {
         color: #fff;
         padding: 15px 50px;

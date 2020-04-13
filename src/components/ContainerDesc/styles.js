@@ -3,15 +3,17 @@ import styled from 'styled-components';
 export const Container = styled.div`
     padding: 60px 0;
     margin-top: -10px;
-    background-color: #DDD;
+    background-color: #333;
     text-align: center;
 
     h2 {
+        color: #fff;
         margin-top: 18px;
         font-weight: normal;
     }
 
     p {
+        color: #fff;
         width: 100%;
         max-width: 768px;
         margin: 15px 0;

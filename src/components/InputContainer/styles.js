@@ -10,6 +10,7 @@ export const Container = styled.div`
         color: #bbb;
     }
     input {
+        background-color: #333;
         margin-top: 8px;
         width: 100%;
         border-radius: 5px;

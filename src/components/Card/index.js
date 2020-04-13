@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 const Card = (props) => (
     <Container>
-        <FiMonitor size={128} color="#415" />
+        <FiMonitor size={128} color="#729" />
         <div className="text-container-single">
             <h2>{props.title}</h2>
             <p>{props.children}</p>

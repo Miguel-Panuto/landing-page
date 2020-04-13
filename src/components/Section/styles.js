@@ -5,7 +5,7 @@ export const Container = styled.div`
 
     h2 {
         text-align: center;
-        color: #462663;
+        color: #729;
         font-weight: normal;
     }
 

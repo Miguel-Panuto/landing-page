@@ -50,23 +50,23 @@ export const Form = styled.div`
     padding: 10px;
     width: 400px;
     height: calc(100% + 30px);
-    background-color: #fff;
+    background-color: #333;
     float: right;
     position: relative;
     top: -15px;
-    border: 8px solid #ccc;
+    border: 8px solid #222;
 
     h2 {
         font-size: 21px;
         font-weight: normal;
-        color: #ccc;
+        color: #fff;
     }
 
     p {
         display: inline-block;
         width: 100%;
         font-size: 17px;
-        color: #bbb;
+        color: #eee;
     }
 
     p {
